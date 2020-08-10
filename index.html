@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+    <!-- region -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -20,7 +20,7 @@
 
 <body>
 
-<section id="contact" class="contact mb-4">
+    <section id="contact" class="contact mb-4">
     <div class="container">
         <div class="row pt-4 mb-4">
             <div class="col text-center">
@@ -33,11 +33,20 @@
                 <div class="card text-white bg-dark text-center">
                     <div class="card-body">
                         <h5 class="card-title text-center">Social Media</h5>
-                        <p>This Is My Social Media, You Can Check Link Below :)</p>
-                        <p class="card-text">
-                            <li><a href="">Facebook</a></li>
-                            <li><a href="">Instagram</a></li>
-                            <li><a href="">Twitter</a></li>
+                        <p id="soc">This Is My Social Media, You Can Check Link Below :)</p>
+                        <p>
+                            <table>
+                                <tr>
+                                    <td><a href="#"><img id="social" src="img/icon/facebook.png" alt="Facebook"></a></td>
+                                    <td><a href="#"><img id="social" src="img/icon/youtube.png" alt="Facebook"></a></td>
+                                    <td><a href="#"><img id="social" src="img/icon/instagram.png" alt="Facebook"></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#"><img id="social" src="img/icon/github.png" alt="Facebook"></a></td>
+                                    <td><a href="#"><img id="social" src="img/icon/ilinkedin.png" alt="Facebook"></a></td>
+                                    <td><a href="#"><img id="social" src="img/icon/twitter.png" alt="Facebook"></a></td>
+                                </tr>
+                            </table>
                         </p>
                     </div>
                 </div>
@@ -50,6 +59,7 @@
             </div>
             <div class="col-lg-6">
                 <form>
+                    <form method="POST" netlify></form>
                     <div class="form-group">
                         <label for="nama">Name</label>
                         <input type="text" class="form-control" id="nama" placeholder="Your Name">
@@ -60,7 +70,7 @@
                     </div>
                     <div class="form-group">
                         <label for="saran">Suggestion</label>
-                        <textarea name="saran" id="saran" class="form-control"></textarea>
+                        <textarea name="saran" id="saran" class="form-control">Type Here</textarea>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-success">Submit</button>
@@ -77,7 +87,6 @@
         <div class="row text-center pt-3">
             <div class="col">
                 <p>© 2020</p>
-                <p>GitHub | LinkedIn | </p>
             </div>
         </div>
     </div>

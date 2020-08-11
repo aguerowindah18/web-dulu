@@ -2,9 +2,6 @@
     width: 65%;
     margin-bottom: 10%;
 }
-stle {
-    display: block; margin: auto;
-}
 #soc {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
@@ -14,4 +11,18 @@ stle {
 }
 #lo {
     font-family: 'Times New Roman', Times, serif;
+}
+#foto {
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: initial;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto
+}
+#in {
+    background-image: url(img/back.jpg);
+}
+#contact {
+    background-image: url(img/back.jpg);
 }

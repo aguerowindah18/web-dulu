@@ -29,3 +29,12 @@
 .form-group {
     color: rgb(190, 190, 190);
 }
+#Portfolio {
+    background-image: url(img/bruno.png);
+}
+#link {
+    color: rgb(206, 194, 35);
+}
+#icon {
+    width: 12%; position: ;
+}
